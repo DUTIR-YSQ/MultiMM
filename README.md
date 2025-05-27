@@ -11,18 +11,18 @@ Senqi Yang, Dongyu Zhang, Jing Ren, Ziqi Xu, Xiuzhen Zhang, Yiliao Song, Hongfei
 
 This dataset is designed for cross-cultural multimodal metaphor recognition and analysis, covering both Chinese and English samples. Detailed statistics are as follows:
 
-| Item                    | Chinese (CN) | English (EN) | Total   |
-|-------------------------|--------------|--------------|---------|
-| Total Samples           | 4,397        | 4,064        | 8,461   |
-| Metaphorical Samples    | 2,564        | 2,411        | 4,975   |
-| Literal Samples         | 1,833        | 1,653        | 3,486   |
-|                         |              |              |         |
-| Total Words             | 125,275      | 48,768       | 174,043 |
-| Average Words per Sample| 28           | 12           | 20      |
-|                         |              |              |         |
-| Training Set Size       | 3,517        | 3,251        | 6,768   |
-| Validation Set Size     | 440          | 406          | 846     |
-| Test Set Size           | 440          | 407          | 847     |
+| **Item**              | **CN**   | **EN**   | **Total** |
+|-----------------------|----------|----------|-----------|
+| Total                 | 4,397    | 4,064    | 8,461     |
+| Metaphorical          | 2,583    | 2,189    | 4,772     |
+| Literal               | 1,814    | 1,875    | 3,689     |
+|                       |          |          |           |
+| **Total Words**       | 145,312  | 68,189   | 213,501   |
+| **Average Words**     | 33       | 15       | 24        |
+|                       |          |          |           |
+| Training Set Size     | 3,517    | 3,251    | 6,768     |
+| Validation Set Size   | 440      | 406      | 846       |
+| Test Set Size         | 440      | 407      | 847       |
 
 ### Each data sample includes the following fields:
 
@@ -37,16 +37,4 @@ This dataset is designed for cross-cultural multimodal metaphor recognition and 
 
 ## 🧠 Model and Code Description
 
-We provide the complete source code for the **SEMD** (Sentiment-Enriched Metaphor Detection) model proposed in the paper. It supports the following two tasks:
-
-### 1. Multimodal Metaphor Detection
-
-- The model integrates visual features, textual information, and sentiment labels to perform metaphor classification.
-
-### 2. Sentiment Classification
-
-- The model predicts the sentiment type of each sample using visual and textual features (excluding metaphor labels).
-
----
-
-We welcome you to use our dataset and code to advance research in multimodal metaphor understanding and sentiment analysis.
+We provide the complete source code for the **SEMD** (Sentiment-Enriched Metaphor Detection) model proposed in the paper. The code supports the metaphor detection task, and the key models BERT ([link](https://huggingface.co/bert-base-multilingual-cased)) and ViT ([link](https://huggingface.co/google/vit-base-patch16-224)) are sourced from these official Hugging Face repositories.
