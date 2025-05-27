@@ -29,8 +29,8 @@ This dataset is designed for cross-cultural multimodal metaphor recognition and 
 - **Image**  
 - **Text in pic**  
 - **Metaphor Label** (`1` for metaphor, `0` for literal)  
-- **Target Domain** (metaphor target)  
-- **Source Domain** (metaphor source)  
+- **Target Domain** 
+- **Source Domain** 
 - **Sentiment Type**: `1` = positive, `0` = neutral, `-1` = negative
 
 ---
