@@ -27,7 +27,7 @@ This dataset is designed for cross-cultural multimodal metaphor recognition and 
 ### Each data sample includes the following fields:
 
 - **Image**  
-- **Text in pic**  
+- **Text**  
 - **Metaphor Label** (`1` for metaphor, `0` for literal)  
 - **Target Domain** 
 - **Source Domain** 
