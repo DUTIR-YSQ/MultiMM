@@ -37,7 +37,7 @@ This dataset is designed for cross-cultural multimodal metaphor recognition and 
 
 ## 🧠 Model and Code Description
 
-We provide the complete source code for the **SEMD** (Sentiment-Enriched Multimodal Detection) model proposed in the paper. It supports the following two tasks:
+We provide the complete source code for the **SEMD** (Sentiment-Enriched Metaphor Detection) model proposed in the paper. It supports the following two tasks:
 
 ### 1. Multimodal Metaphor Detection
 
