@@ -1,4 +1,4 @@
-# MultiMM
+# Cultural Bias Matters: A Cross-Cultural Benchmark Dataset and Sentiment-Enriched Model for Understanding Multimodal Metaphors
 
 This project provides the dataset and model code corresponding to the paper accepted at the **ACL 2025** main conference:
 
