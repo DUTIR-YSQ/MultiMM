@@ -7,6 +7,20 @@ Senqi Yang, Dongyu Zhang, Jing Ren, Ziqi Xu, Xiuzhen Zhang, Yiliao Song, Hongfei
 
 ---
 
+## 📁 File Description
+
+- **`code_metaphor/`**  
+  Contains the code for the metaphor detection task.  
+  To run the program, execute `main.py`.  
+  **Note:** Before running, you need to modify the paths for the dataset and the model accordingly.
+
+- **`data/`**  
+  Includes training, validation, and test data in both Chinese (`CN`) and English (`EN`).  
+  - `imgs_CN/` and `imgs_EN/` contain the corresponding image data.  
+  - The `all/` folder contains the original raw data before splitting.
+
+---
+
 ## 📊 Dataset Description
 
 This dataset is designed for cross-cultural multimodal metaphor recognition and analysis, covering both Chinese and English samples. Detailed statistics are as follows:
