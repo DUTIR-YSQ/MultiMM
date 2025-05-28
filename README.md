@@ -55,13 +55,26 @@ We provide the complete source code for the **SEMD** (Sentiment-Enriched Metapho
 ## 🔬 Explore More Research from Our Lab
 
 1. **[MultiMET: A Multimodal Dataset for Metaphor Understanding (ACL 2021)](https://github.com/DUTIR-YSQ/MultiMET)**  
-   A foundational multimodal dataset for metaphor understanding, combining text and visual modalities.
+   A foundational multimodal dataset for metaphor understanding, combining text and visual modalities.  
+   **Citation Format**:  
+   Dongyu Zhang, Minghao Zhang, Heting Zhang, Liang Yang, and Hongfei Lin. 2021. MultiMET: A Multimodal Dataset for Metaphor Understanding. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers), pages 3214–3225, Online. Association for Computational Linguistics.
 
 2. **[Cultural Bias Matters: A Cross-Cultural Benchmark Dataset and Sentiment-Enriched Model for Understanding Multimodal Metaphors (ACL 2025)](https://github.com/DUTIR-YSQ/MultiMM)**  
-   A cross-cultural benchmark dataset that incorporates sentiment signals to improve multimodal metaphor detection across languages.
+   A cross-cultural benchmark dataset that incorporates sentiment signals to improve multimodal metaphor detection across languages.  
+   **Citation Format**:  
+   Senqi Yang, Dongyu Zhang, Jing Ren, Ziqi Xu, Xiuzhen Zhang, Yiliao Song, Hongfei Lin, and Feng Xia. 2025. *Cultural Bias Matters: A Cross-Cultural Benchmark Dataset and Sentiment-Enriched Model for Understanding Multimodal Metaphors*. In *Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)*, pages XX–XX, **Vienna, Austria**. Association for Computational Linguistics.
 
 3. **[EmoMeta: A Chinese Multimodal Metaphor Dataset and Novel Method for Emotion Classification (WWW 2025)](https://github.com/DUTIR-YSQ/EmoMeta)**  
-   A new Chinese dataset and method for emotion classification based on multimodal metaphors.
+   A new Chinese dataset and method for emotion classification based on multimodal metaphors.  
+   **Citation Format**:  
+   Lu, X., Liu, Y., Zhang, D., Wu, Z., Ren, J., & Xia, F. (2025, May). EmoMeta: A Multimodal Dataset for Fine-grained Emotion Classification in Chinese Metaphors. In Companion Proceedings of the ACM on Web Conference 2025 (pp. 3080-3083).
 
 4. **[MultiCMET: A Novel Chinese Benchmark for Understanding Multimodal Metaphor (EMNLP 2023)](https://github.com/DUTIR-YSQ/MultiCMET)**  
-   A high-quality Chinese benchmark designed to support multimodal metaphor understanding in NLP and vision-language tasks.
+   A high-quality Chinese benchmark designed to support multimodal metaphor understanding in NLP and vision-language tasks.  
+   **Citation Format**:  
+   Zhang, D., Yu, J., Jin, S., Yang, L., & Lin, H. (2023, December). Multicmet: A novel Chinese benchmark for understanding multimodal metaphor. In Findings of the Association for Computational Linguistics: EMNLP 2023 (pp. 6141-6154).
+
+---
+
+**Important!** If you use any of our lab's datasets, please make sure to cite them in the above format!
+
