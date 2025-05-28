@@ -54,6 +54,9 @@ This dataset is designed for cross-cultural multimodal metaphor recognition and 
 We provide the complete source code for the **SEMD** (Sentiment-Enriched Metaphor Detection) model proposed in the paper. The code supports the metaphor detection task, and the key models BERT ([link](https://huggingface.co/bert-base-multilingual-cased)) and ViT ([link](https://huggingface.co/google/vit-base-patch16-224)) are sourced from these official Hugging Face repositories.
 ## 🔬 Explore More Research from Our Lab
 
+
+## 🔬 Explore More Research from Our Lab
+
 **Important❗**  If you use any of our lab's datasets, please make sure to cite them in the above format❗
 
 1. **[MultiMET: A Multimodal Dataset for Metaphor Understanding (ACL 2021)](https://github.com/DUTIR-YSQ/MultiMET)**  
@@ -76,6 +79,40 @@ We provide the complete source code for the **SEMD** (Sentiment-Enriched Metapho
    **Citation Format**:  
    Zhang, D., Yu, J., Jin, S., Yang, L., & Lin, H. (2023, December). Multicmet: A novel Chinese benchmark for understanding multimodal metaphor. In Findings of the Association for Computational Linguistics: EMNLP 2023 (pp. 6141-6154).
 
----
 
+### 📚 References (BibTeX)
 
+```bibtex
+@inproceedings{zhang2021multimet,
+  title     = {MultiMET: A multimodal dataset for metaphor understanding},
+  author    = {Zhang, Dongyu and Zhang, Minghao and Zhang, Heting and Yang, Liang and Lin, Hongfei},
+  booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)},
+  pages     = {3214--3225},
+  year      = {2021}
+}
+
+@inproceedings{yang2025cultural,
+  title     = {Cultural Bias Matters: A Cross-Cultural Benchmark Dataset and Sentiment-Enriched Model for Understanding Multimodal Metaphors},
+  author    = {Yang, Senqi and Zhang, Dongyu and Ren, Jing and Xu, Ziqi and Zhang, Xiuzhen and Song, Yiliao and Lin, Hongfei and Xia, Feng},
+  booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages     = {XX--XX},
+  year      = {2025},
+  address   = {Vienna, Austria},
+  publisher = {Association for Computational Linguistics}
+}
+
+@inproceedings{lu2025emometa,
+  title     = {EmoMeta: A Multimodal Dataset for Fine-grained Emotion Classification in Chinese Metaphors},
+  author    = {Lu, Xingyuan and Liu, Yuxi and Zhang, Dongyu and Wu, Zhiyao and Ren, Jing and Xia, Feng},
+  booktitle = {Companion Proceedings of the ACM on Web Conference 2025},
+  pages     = {3080--3083},
+  year      = {2025}
+}
+
+@inproceedings{zhang2023multicmet,
+  title     = {Multicmet: A novel chinese benchmark for understanding multimodal metaphor},
+  author    = {Zhang, Dongyu and Yu, Jingwei and Jin, Senyuan and Yang, Liang and Lin, Hongfei},
+  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2023},
+  pages     = {6141--6154},
+  year      = {2023}
+}
