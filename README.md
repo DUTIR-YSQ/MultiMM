@@ -38,3 +38,16 @@ This dataset is designed for cross-cultural multimodal metaphor recognition and 
 ## 🧠 Model and Code Description
 
 We provide the complete source code for the **SEMD** (Sentiment-Enriched Metaphor Detection) model proposed in the paper. The code supports the metaphor detection task, and the key models BERT ([link](https://huggingface.co/bert-base-multilingual-cased)) and ViT ([link](https://huggingface.co/google/vit-base-patch16-224)) are sourced from these official Hugging Face repositories.
+## 🔬 Explore More Research from Our Lab
+
+1. **[MultiMET: A Multimodal Dataset for Metaphor Understanding (ACL 2021)](https://github.com/DUTIR-YSQ/MultiMET)**  
+   A foundational multimodal dataset for metaphor understanding, combining text and visual modalities.
+
+2. **[Cultural Bias Matters: A Cross-Cultural Benchmark Dataset and Sentiment-Enriched Model for Understanding Multimodal Metaphors (ACL 2025)](https://github.com/DUTIR-YSQ/MultiMM)**  
+   A cross-cultural benchmark dataset that incorporates sentiment signals to improve multimodal metaphor detection across languages.
+
+3. **[EmoMeta: A Chinese Multimodal Metaphor Dataset and Novel Method for Emotion Classification (WWW 2025)](https://github.com/DUTIR-YSQ/EmoMeta)**  
+   A new Chinese dataset and method for emotion classification based on multimodal metaphors.
+
+4. **[MultiCMET: A Novel Chinese Benchmark for Understanding Multimodal Metaphor (EMNLP 2023)](https://github.com/DUTIR-YSQ/MultiCMET)**  
+   A high-quality Chinese benchmark designed to support multimodal metaphor understanding in NLP and vision-language tasks.
