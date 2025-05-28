@@ -225,9 +225,6 @@ def model_train():
                 for i in range(len(guid)):
                     result_dict[str(guid[i])] = [int(tag[i].item()), pred[i].item()]
 
-                    # Output the incorrect predictions
-                    if pred[i] != tag[i]:
-                        print(f"Test,Incorrect Prediction: GUID: {guid[i]}, Pred: {pred[i].item()}, Tag: {tag[i].item()}")
 
             with open(os.path.join(resdir, "result_" + str(epoch) + ".json"), "w") as f:
                 json.dump(result_dict, f)
