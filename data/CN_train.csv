@@ -1,1 +1,1 @@
-I suggest that the authors split the dataset themselves according to the proportions described in the paper.
+We suggest that the authors split the dataset according to the proportions described in the paper when conducting experiments, and we recommend using 10-fold cross-validation for evaluation.
